@@ -6,8 +6,7 @@ while(rodada <= total_tentativas):
 
   print("Essa é a sua tentativa {} de {}".format(rodada, total_tentativas))
 
-  numero_str = input("Digite um número para acertar ")
-  numero = int(numero_str)
+  numero = int(input("Digite um número para acertar "))
 
   print("Seu número é ", numero)
 
